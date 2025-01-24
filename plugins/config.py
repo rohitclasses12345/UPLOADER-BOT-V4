@@ -11,11 +11,11 @@ logging.basicConfig(
 
 class Config(object):
     
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7245821090:AAHjogSqWekwlRG4xsm5sV3kVKkif-lrBQo")
     
-    API_ID = int(os.environ.get("API_ID", "4888076"))
+    API_ID = int(os.environ.get("API_ID", "20607064"))
     
-    API_HASH = os.environ.get("API_HASH", "8b9b8214d84305d5ba8042c93575ea84")
+    API_HASH = os.environ.get("API_HASH", "c0a09fd762681a66366cf84976f31a17")
     
     DOWNLOAD_LOCATION = "./DOWNLOADS"
     
@@ -43,15 +43,15 @@ class Config(object):
     
     SESSION_NAME = os.environ.get("SESSION_NAME", "UploadLinkToFileBot")
     
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002145935116"))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002379728998"))
     
     LOGGER = logging
 
-    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002145935116")
+    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002379728998")
     
-    OWNER_ID = int(os.environ.get("OWNER_ID", "5656422326"))
+    OWNER_ID = int(os.environ.get("OWNER_ID", "7568561381"))
     
     TG_MIN_FILE_SIZE = 2097152000
     
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "Urluploaderbotnewbot")
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "Url_rj_uploder_bot")
                                   
