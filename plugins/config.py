@@ -11,11 +11,11 @@ logging.basicConfig(
 
 class Config(object):
     
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7058856750:AAEmJN2hloylnakixFl0k-pJ3jAgNengaPk")
     
-    API_ID = int(os.environ.get("API_ID", "4888076"))
+    API_ID = int(os.environ.get("API_ID", "21567814"))
     
-    API_HASH = os.environ.get("API_HASH", "8b9b8214d84305d5ba8042c93575ea84")
+    API_HASH = os.environ.get("API_HASH", "cd7dc5431d449fd795683c550d7bfb7e")
     
     DOWNLOAD_LOCATION = "./DOWNLOADS"
     
@@ -49,7 +49,7 @@ class Config(object):
 
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002145935116")
     
-    OWNER_ID = int(os.environ.get("OWNER_ID", "5656422326"))
+    OWNER_ID = int(os.environ.get("OWNER_ID", "6126688051"))
     
     TG_MIN_FILE_SIZE = 2097152000
     
